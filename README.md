@@ -49,19 +49,19 @@ Exploratory Data Analysis was performed to better understand the dataset's distr
 
 ## **Model Versions**
 
-### [**Base Model**]()
+### [**Base Model**](https://github.com/EllePancake/Multitask-Age-and-Gender-Prediction-Model/blob/main/modeling/models/base_model.py)
 - A multitask ResNet-18 model was used, with separate heads for age and gender prediction.
 - Loss functions:
   - **Age**: Mean Squared Error (MSE)
   - **Gender**: Cross Entropy Loss
 
 ### **Model Variants**
-- [**Version 1 (v1)**](): Base model with minimal preprocessing (only conversion to tensor).[Training completed here.]()
-- [**Version 2 (v2)**](): Added normalization for input images.[Training completed here.]()
-- [**Version 3 (v3)**](): Reduced the learning rate to `0.0001` to stabilize training.[Training completed here.]()
-- [**Version 4 (v4)**](): Implemented a **WeightedRandomSampler** to address class imbalance in the training set.[Training completed here.]()
+- [**Version 1 (v1)**](): Base model with minimal preprocessing (only conversion to tensor).[Training completed here.](https://github.com/EllePancake/Multitask-Age-and-Gender-Prediction-Model/blob/main/modeling/experiments/train_v1.ipynb)
+- [**Version 2 (v2)**](): Added normalization for input images.[Training completed here.](https://github.com/EllePancake/Multitask-Age-and-Gender-Prediction-Model/blob/main/modeling/experiments/train_v2.ipynb)
+- [**Version 3 (v3)**](): Reduced the learning rate to `0.0001` to stabilize training.[Training completed here.](https://github.com/EllePancake/Multitask-Age-and-Gender-Prediction-Model/blob/main/modeling/experiments/train_v3.ipynb)
+- [**Version 4 (v4)**](): Implemented a **WeightedRandomSampler** to address class imbalance in the training set.[Training completed here.](https://github.com/EllePancake/Multitask-Age-and-Gender-Prediction-Model/blob/main/modeling/experiments/train_v4.ipynb)
 
-## [**Performance Evaluation**]()
+## [**Performance Evaluation**](https://github.com/EllePancake/Multitask-Age-and-Gender-Prediction-Model/blob/main/results%20and%20conclusion.ipynb)
 
 ### **Gender Prediction**:
 - **Best Version**: **v2** achieved the highest gender accuracy (0.904) on the test set.
