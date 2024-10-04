@@ -17,14 +17,6 @@ This repository contains the implementation of a multitask deep learning model t
 
 This project aims to develop a **multitask deep learning model** that can accurately predict **age** and **gender** from facial images. The model uses a modified version of ResNet-18 to perform both tasks simultaneously. Multiple versions of the model were created with different preprocessing techniques, learning rates, and class rebalancing methods to understand their impact on performance and biases.
 
-## **Project Structure**
-
-- `data/`: Contains the train, validation, and test datasets.
-- `models/`: Directory for storing model checkpoints and saved versions.
-- `notebooks/`: Jupyter notebooks used for Exploratory Data Analysis (EDA) and result visualization.
-- `src/`: Python scripts for model training, evaluation, and data loading.
-- `README.md`: Project documentation.
-
 ## **Data Description**
 
 The dataset consists of images of human faces annotated with **age** and **gender** labels. The dataset is divided into three subsets:
