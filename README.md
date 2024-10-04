@@ -32,7 +32,7 @@ The dataset consists of images of human faces annotated with **age** and **gende
 - **Validation Set**: Used to evaluate the model's performance during training.
 - **Test Set**: Used to evaluate the final performance of the trained models.
 
-## [**Exploratory Data Analysis (EDA)**]()
+## [**Exploratory Data Analysis (EDA)**](https://github.com/EllePancake/Multitask-Age-and-Gender-Prediction-Model/blob/main/EDA.ipynb)
 
 Exploratory Data Analysis was performed to better understand the dataset's distribution and identify potential issues related to class imbalance or biases. Key insights from the EDA include:
 
